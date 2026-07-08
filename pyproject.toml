@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wikibuilder"
+version = "0.1.0"
+description = "An open-source, zero-dependency static wiki builder for Markdown."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["wiki", "markdown", "static-site-generator", "documentation"]
+authors = [{ name = "wikibuilder contributors" }]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Documentation",
+    "Topic :: Text Processing :: Markup :: Markdown",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/squigglefest/test"
+Repository = "https://github.com/squigglefest/test"
+
+[project.scripts]
+wikibuilder = "wikibuilder.__main__:main"
+
+[tool.setuptools]
+packages = ["wikibuilder"]
