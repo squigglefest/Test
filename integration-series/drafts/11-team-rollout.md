@@ -11,7 +11,6 @@ internal_links:
   - "auth-security" — "Who Holds the Keys? Authentication and Security, Explained"
   - "what-is-mcp" — "What Is an MCP Server? A Plain-English Guide for Real Estate Pros"
 external_sources:
-  - "NAR Cybersecurity Resources for Real Estate Professionals (source: realtors.org/cybersecurity)"
   - "[NEEDS SOURCE: statistics on access-related data breaches in small business / real estate]"
   - "[NEEDS SOURCE: best practices for credential management in team environments]"
 cta_placement: "After the 'Common Pitfalls' section"
@@ -20,7 +19,7 @@ prev_article: "10. connect-gui — No Terminal Required: GUI Ways to Connect"
 next_article: "12. auth-security — Who Holds the Keys? Authentication and Security, Explained"
 ---
 
-One brokerage, twelve agents, one afternoon. That's all it took for Priya, a broker managing a team of residential agents in Austin, to give everyone in her office access to their website's AI connection — the MCP server (Model Context Protocol — think of it as your website's AI connection) running on Virtual Results.
+One brokerage, twelve agents, one afternoon. That's all it took for Priya, a broker managing a team of residential agents in Austin, to give everyone in her office access to their website's AI connection — the [MCP server](/what-is-mcp) (Model Context Protocol — think of it as your website's AI connection) running on Virtual Results.
 
 But here's what made it work: Priya didn't hand out one shared password to every agent. She didn't give the junior agent who'd been with her for three weeks the same access as her top producer. And she didn't skip the step of revoking access when an agent eventually moved to another firm. She followed a plan, set boundaries, and avoided the pitfalls that turn a rollout into a security headache.
 
@@ -84,7 +83,7 @@ This document becomes your reference. It's also your protection — if an agent 
 
 **Step 3: Create credentials and send them securely.**
 
-For each person, generate a unique username and password. (If your connection provider uses an admin dashboard, this is usually one or two clicks.)
+For each person, generate a unique username and password. (If your connection provider uses an [admin dashboard](/connect-gui), this is usually one or two clicks.)
 
 Do **not** email passwords in plain text. Use a password manager if your team has one, or send the credentials over a phone call and have each agent set their own new password on first login. Priya texted each agent: *"Check your email for a one-time access link. Click it, create your own password, and you're in."* One-time links are safer than sending passwords.
 
@@ -122,28 +121,19 @@ Six months go by. You need to audit who can do what. You can't remember if you e
 
 It feels egalitarian, but it's not secure. Equal access doesn't mean equitable; it means indiscriminate. A new agent shouldn't be able to delete your top producer's custom listing template. A marketing assistant shouldn't have the ability to reset your blog's design. Match access to role. That's fairness with guardrails.
 
-## Keeping Access Fresh {#access-maintenance}
-
-Access management isn't a one-time event. It's something you revisit.
-
-Every quarter, run a quick audit. Log in as the broker or office manager and look at who still has access. Did someone leave? Revoke it. Did someone get promoted and need more access? Promote them. Did you hire someone new? Add them to the rollout plan and onboard them the same way Priya did.
-
-Also watch for signs that someone's password might be compromised. If someone forgets their login five times and you keep resetting it, or if you notice activity that doesn't match someone's usual patterns (an agent logging in at 2 a.m. from another country), those are signals to [check your authentication and security settings](/auth-security) more closely.
-
-For the deeper technical side of authentication and who has what permissions, the article on [authentication and security](/auth-security) goes into all the details you might need as you scale.
-
 ---
 
 **Ready to connect your whole team to your website's AI connection — safely?** [See a demo](#) of how Virtual Results makes team access management simple and secure. We'll show you how to set it up in your office, just like Priya did in hers.
 
 ---
 
-## Related Resources
+## Keeping Access Fresh {#access-maintenance}
 
-- [Who Holds the Keys? Authentication and Security, Explained](/auth-security)
-- [No Terminal Required: GUI Ways to Connect](/connect-gui)
-- [What Is an MCP Server? A Plain-English Guide for Real Estate Pros](/what-is-mcp)
-- [NAR Cybersecurity Resources for Real Estate Professionals](https://www.realtors.org/cybersecurity)
+Access management isn't a one-time event. It's something you revisit.
+
+Every quarter, run a quick audit. Log in as the broker or office manager and look at who still has access. Did someone leave? Revoke it. Did someone get promoted and need more access? Promote them. Did you hire someone new? Add them to the rollout plan and onboard them the same way Priya did.
+
+Also watch for signs that someone's password might be compromised. If someone forgets their login five times and you keep resetting it, or if you notice activity that doesn't match someone's usual patterns (an agent logging in at 2 a.m. from another country), those are signals to [check your authentication and security settings](/auth-security) more closely. For the deeper technical side of authentication and who has what permissions, that article goes into all the details you might need as you scale.
 
 ---
 

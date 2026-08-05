@@ -15,17 +15,20 @@ internal_links:
     anchor_text: MCP server
   - slug: auth-security
     anchor_text: authentication setup
-  - slug: technical
-    anchor_text: how the connection works
+  - slug: connect-cli
+    anchor_text: CLI connections
+  - slug: team-rollout
+    anchor_text: getting your team connected
 cta_placement: After "Step 5: Test your connection"
 cta_type: mid
 external_sources:
   - description: OpenAI API documentation for Chat Completions
     link: "https://platform.openai.com/docs/guides/gpt"
-  - description: OpenAI Code Interpreter (Codex) documentation
-    link: "https://platform.openai.com/docs/models"
   - description: Model Context Protocol (MCP) specification
     link: "https://modelcontextprotocol.io"
+  - description: "[NEEDS SOURCE: VR connection tool UI — confirm exact steps/labels against the real product before publish]"
+  - description: "[NEEDS SOURCE: OpenAI Codex/API assistant-type configuration]"
+  - description: "[NEEDS SOURCE: current OpenAI model lineup]"
 ---
 
 ## In-Article Navigation
@@ -76,6 +79,8 @@ OpenAI keeps API keys in your account settings, separate from the web app. Here'
 
 Your website's connection tool (the same one you used for Claude) has a place to add a new assistant. Navigate to your [MCP server](/what-is-mcp) settings:
 
+> [NEEDS SOURCE: VR connection tool UI — confirm exact steps/labels (Add Assistant, Assistant Type dropdown, permission checkboxes) against the real product before publish]
+
 1. Open your MCP connection tool in the same place where you set up Claude.
 2. Look for **Add Assistant** or **New Connection**.
 3. Select **OpenAI** as the provider.
@@ -83,8 +88,8 @@ Your website's connection tool (the same one you used for Claude) has a place to
    [SCREENSHOT: Connection tool showing provider dropdown with "OpenAI" selected]
 
 4. For **Assistant Type**, choose one:
-   - **ChatGPT** (GPT-4 or GPT-3.5) — general-purpose writing and reasoning
-   - **Codex** — best for writing and debugging code
+   - **ChatGPT** — general-purpose writing and reasoning [NEEDS SOURCE: current OpenAI model lineup]
+   - **Codex** — best for writing and debugging code [NEEDS SOURCE: OpenAI Codex/API assistant-type configuration]
    
    [SCREENSHOT: Assistant type selection dropdown showing ChatGPT and Codex options]
 
@@ -145,6 +150,12 @@ If the connection works, you'll see the result in your chat interface. If someth
 - Your website's MCP server is still running
 
 If you're stuck, walk through the same steps you took for Claude in [the Claude guide](/connect-claude) — the troubleshooting is identical.
+
+---
+
+**Curious how this works in practice?** [See a demo](https://virtualresults.net/demo) of ChatGPT and Codex working together on your website — writing copy, generating code, and handling team tasks through the same MCP connection.
+
+---
 
 ## Switching Between Assistants
 

@@ -1,5 +1,4 @@
 ---
-# FRONT MATTER
 headline: "Beyond Blog Posts: 12 Things You Can Ask Your Website to Do"
 alternates:
   - "12 Powers Hiding in Your Website (If You Know How to Ask)"
@@ -16,42 +15,13 @@ internal_links:
     anchor: "publishing blog posts"
   - slug: "/howto-listing"
     anchor: "creating listings"
+  - slug: "/mcp-vs-zapier"
+    anchor: "vs. Zapier"
 external_sources:
   - "No external sources required for this use-case overview."
 cta_placement: "After the 12-item list, before footer"
 cta_type: "mid (see a demo)"
 ---
-
-## Front Matter Block
-
-**Working Headline:** Beyond Blog Posts: 12 Things You Can Ask Your Website to Do
-
-**Alternates:**
-- 12 Powers Hiding in Your Website (If You Know How to Ask)
-- What Your Website Can Do When It Listens: 12 Use Cases
-
-**Dek:** An MCP server connection unlocks dozens of possibilities — here are the real-world tasks real estate agents are asking their sites to handle.
-
-**Hook:** Market reports. Open houses. Lead questions. Photo swaps. Your website has always been able to do more than publish a blog post. The problem was you couldn't just ask it. Now you can.
-
-**Hero Image:** [HERO: Agent at a desk, holding a phone with a text bubble emerging; in the background, a website morphing into different content (report, listing page, photo grid). Newsprint-collage style.]
-
-**Internal Links (3–6):**
-- `/technical` — how it works
-- `/connect-claude` — connecting your site
-- `/howto-blog-post` — publishing blog posts
-- `/howto-listing` — creating listings
-
-**External Sources:**
-- No external citations required (use-case overview).
-
-**CTA Placement:** After the 12-item list, before footer.
-
-**CTA Type:** Mid (see a demo).
-
----
-
-## Body
 
 <!-- SERIES_TOC: Your Website, On Speaking Terms -->
 

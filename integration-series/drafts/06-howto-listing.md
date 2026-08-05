@@ -19,7 +19,6 @@ internal_links_used:
   - slug: "/howto-blog-post"
     anchor_text: "similar draft-and-review pattern"
 external_sources:
-  - "Real Estate Board of New York (REBNY) — Standard Forms of Agreement (current MLS listing agreement formats)" 
   - "Anthropic MCP documentation — https://modelcontextprotocol.io"
 cta_placement: "End of body, before footer"
 cta_type: "mid (consideration funnel)"
@@ -38,11 +37,11 @@ cta_type: "mid (consideration funnel)"
 
 It's 9 pm, and Maria just got a price reduction call from her seller. She opens her phone and types: "Update the listing at 456 Oak to $489,900." Seconds later, her website shows the new price.
 
-That's not automation running on a schedule. That's an assistant with keys to her website — the same keys Maria would use to log in and edit manually. But this time, she just asked.
+That's not automation running on a schedule. That's an assistant with keys to her website — the same keys Maria would use to log in and edit manually. But this time, she just asked. And you stay in control every step—[safely handing over access](/auth-security) means you see and approve everything before your website changes.
 
-The MCP server (Model Context Protocol — think of it as your website's AI connection) sits between your AI assistant and your website. When you ask it to create or edit a listing, the assistant doesn't guess or invent data. It talks directly to your website, reads what's already there, and makes the change exactly as if you had logged in and done it yourself.
+The MCP server (Model Context Protocol — think of it as your website's AI connection) sits between your AI assistant and your website. When you ask it to create or edit a listing, your website's AI connection doesn't guess or invent data. It talks directly to your website, reads what's already there, and makes the change exactly as if you had logged in and done it yourself.
 
-This is how you own your listing channel, fully, in real time.
+This is how you own your listing channel, fully, in real time. For a deeper technical dive into [how your website's AI connection works](/what-is-mcp), read our series article — but here's what matters for day-to-day use.
 
 ## What You're Actually Asking
 
@@ -54,7 +53,7 @@ You might say:
 - "Add these new photos to the Riverside property listing."
 - "Take the Elm Street house off the market."
 
-The assistant hears your intent, pulls up the right form on your website, fills it correctly, and then — crucially — shows you a draft before it goes live. You review, catch any mistakes, and approve. Only then does your website update.
+Your website's AI connection hears your intent, pulls up the right form on your website, fills it correctly, and then — crucially — shows you a draft before it goes live. You review, catch any mistakes, and approve. Only then does your website update.
 
 This [draft-and-review pattern](/howto-blog-post) keeps mistakes from going public, even when you're working fast or from your phone.
 
@@ -66,7 +65,7 @@ Let's say Maria has just taken on a new property and wants it live on her websit
 > "Create a new listing for 123 Riverside Drive. 3 bed, 2 bath, 1,850 sq ft, $625,000. Built in 1998, renovated kitchen, hardwood floors, two-car garage, fenced yard. Waterfront views. Quiet neighborhood. Make the description sound inviting."
 
 **What happens:**
-The assistant reaches into your website, opens the new-listing form, and fills in every field correctly:
+It reaches into your website, opens the new-listing form, and fills in every field correctly:
 - Address
 - Beds, baths, square footage
 - Price
@@ -88,7 +87,7 @@ Prices change. New photos arrive. A showing goes live. Your website needs to ref
 > "Update the listing at 456 Oak to $489,900. Add a note: 'Motivated seller, open to offers.'"
 
 **What happens:**
-The assistant finds the 456 Oak listing on your website, pulls up the edit form, updates the price field, and adds the note to the listing description or seller remarks.
+It finds the 456 Oak listing on your website, pulls up the edit form, updates the price field, and adds the note to the listing description or seller remarks.
 
 Maria sees the draft. Price looks right, note is clear, photos didn't change (good — no accidental edits). She approves.
 
@@ -97,7 +96,7 @@ By the time she puts her phone down, the website reflects the new price. Any rea
 **Another scenario — new photos:**
 > "The photographer sent 6 new photos for the Riverside Drive property. Add them to the listing."
 
-The assistant can ingest the photos and attach them in the right sequence. Maria reviews the order — maybe she wants the kitchen photo first instead of third — reorders them in the draft, and approves. The listing updates.
+It can ingest the photos and attach them in the right sequence. Maria reviews the order — maybe she wants the kitchen photo first instead of third — reorders them in the draft, and approves. The listing updates.
 
 ## The Draft and Review Step
 

@@ -28,17 +28,17 @@ series_publication: "Your Website, On Speaking Terms"
 
 ## In This Article
 
-- [Why Click Instead of Type?](#why-click)
-- [The Web-Based Connection Method](#web-method)
-- [Browser Extensions and Sidebar Tools](#browser-tools)
-- [Assistant Apps with Built-In Settings](#assistant-apps)
-- [When to Use Each Method](#when-to-use)
+- [Why Click](#why-click)
+- [Web Method](#web-method)
+- [Browser Tools](#browser-tools)
+- [Assistant Apps](#assistant-apps)
+- [When to Use](#when-to-use)
 
 ---
 
-## Why Click Instead of Type?
+## Why Click
 
-If you read [the command-line path](/connect-cli) and felt lost by line three, you're not alone. The terminal works great for developers and power users who live there anyway. But most real estate agents shouldn't have to open a black-and-green window just to give their website an AI connection.
+For everyone who closed the last article at the word "CLI" — here's the good news: command lines are not the only way to connect your website to Claude or other AI assistants. The terminal works great for developers and power users who live there anyway, but most real estate agents shouldn't have to open a black-and-green window just to give their website an AI connection.
 
 Here's the thing: **your website's ability to work with AI doesn't depend on the method you use to set it up.** Whether you click buttons or type commands, the end result is identical — your website can now accept instructions from Claude or another assistant. This article covers the GUI paths: the ones that live in web browsers, in mobile apps, and in friendly settings screens.
 
@@ -48,18 +48,20 @@ You'll end up with the same MCP server (Model Context Protocol — think of it a
 
 ---
 
-## The Web-Based Connection Method
+## Web Method
 
 The simplest path starts in your web browser, no terminal needed.
 
 **Claude Web (claude.ai) has a built-in way to connect to external tools.** If you're already using Claude online, you can add a website connection directly from the interface:
 
+[NEEDS SOURCE: confirm exact Claude.ai UI labels and navigation before publish]
+
 1. Go to [claude.ai](https://claude.ai) and log in.
 2. Open a conversation (or start a new one).
-3. Look for the **Projects** section in the left sidebar — this is where you'll set up your website's connection.
-4. Click **Create Project** and choose **Add Integration** or **Connect Tools**.
+3. Look for something like a **Projects** section in the left sidebar — this is where you'll set up your website's connection.
+4. Click a button resembling **Create Project** and choose something like **Add Integration** or **Connect Tools**.
 5. You'll see a settings form asking for your website's address and authentication details (the credentials you'd normally paste into the terminal).
-6. Fill in your website's public URL and any API keys or connection credentials.
+6. Fill in your website's public URL and any API keys (a password-like code that lets one system securely talk to another) or connection credentials.
 7. Test the connection by asking Claude a simple question — for example, "How many listings do I have?" or "Show me my latest blog posts."
 
 [SCREENSHOT: Claude web interface showing the Projects panel open on the left, with a "Create Project" button highlighted. A settings form is visible on the right with fields for "Website URL," "API Key," and "Connection Status." The status shows "Connected" in green.]
@@ -68,11 +70,11 @@ The simplest path starts in your web browser, no terminal needed.
 
 **When this method has limits:** If your website is private (not publicly accessible) or behind a firewall, the browser-based method won't work — Claude's servers need to reach your website from the internet. In that case, the [command-line path](/connect-cli) or a locally-hosted connection tool becomes necessary.
 
-Maria, a real estate agent in Portland, tried the web method first. She opened Claude Web, filled in her website URL and a temporary API key her hosting provider gave her, and within 90 seconds she had Claude responding to questions about her listings. "I was nervous it wouldn't work," she said later, "but it was literally just three form fields."
+Maria, a real estate agent in Portland, admits she was nervous when she tried the web method first — but for her, it was just three form fields. She opened Claude Web, filled in her website URL and a temporary API key her hosting provider gave her, and within 90 seconds Claude was responding to questions about her listings.
 
 ---
 
-## Browser Extensions and Sidebar Tools
+## Browser Tools
 
 Some AI assistants ship with browser extensions — small tools that add buttons and panels to your web browser.
 
@@ -95,7 +97,7 @@ Some AI assistants ship with browser extensions — small tools that add buttons
 
 ---
 
-## Assistant Apps with Built-In Settings
+## Assistant Apps
 
 If you use Claude through a mobile app or a desktop app (not the web browser), many of these have their own settings for integrations.
 
@@ -116,11 +118,11 @@ If you use Claude through a mobile app or a desktop app (not the web browser), m
 **Apps that support this today:**
 - **Claude Web** (browser version — see above)
 - **Claude mobile apps** (iOS/Android — requires a recent version)
-- **ChatGPT app** (if you've subscribed to Plus or Pro — it has a "GPTs" or "Custom Integrations" section)
+- **ChatGPT app** (if you've subscribed to Plus or Pro — it has a section for custom tools or integrations) [NEEDS SOURCE: confirm exact ChatGPT UI labels and whether GUI integration is available]
 
 ---
 
-## When to Use Each Method
+## When to Use
 
 Not every method works for every situation. Here's a quick guide:
 

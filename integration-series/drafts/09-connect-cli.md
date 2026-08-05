@@ -7,10 +7,10 @@ dek: "If you're comfortable in a terminal, you can now run batch operations on y
 hook: "Claude Code + your website = batch operations. Instead of editing listings one by one through a chat window, you can automate bulk changes: price adjustments, photo captions, open house times, even bulk email follow-ups."
 hero_concept: "[HERO: split-screen newsprint collage — left side shows a terminal window with Claude Code commands running (stylized, not 100% literal); right side shows a real estate website dashboard updating in real time. Newsprint-editorial style.]"
 internal_links:
-  - slug: "overview"
-    anchor_text: "how your website works with AI"
   - slug: "mcp-vs-zapier"
     anchor_text: "why this isn't just automation"
+  - slug: "connect-gui"
+    anchor_text: "GUI alternatives"
   - slug: "connect-claude"
     anchor_text: "connecting Claude to your website"
   - slug: "auth-security"
@@ -67,11 +67,7 @@ The basic flow is straightforward.
 
 **Step 3: Configure your connection.** You'll create a small configuration file (usually in your home directory) that tells Claude Code how to reach your website. This file contains your API key and the URL of your MCP server. Claude Code reads this file each time it runs.
 
-**Step 4: Test the connection.** Run a simple command to make sure everything is wired correctly:
-
-```
-claude connect --test
-```
+**Step 4: Test the connection.** Run a simple command to make sure everything is wired correctly — something like `claude connect --test` in your terminal.
 
 If it works, you'll get confirmation that Claude Code can see your website and its available operations.
 
@@ -83,27 +79,13 @@ Here's where the power becomes clear. Let's follow Maria, a broker managing 240 
 
 **Maria's scenario:** It's Sunday evening, and the market shifted. She needs to adjust prices on 47 listings, add updated DOM (days on market) stats to each, and notify her agents. Manually, that's 2–3 hours of clicking through her website, copying numbers, and updating fields. Using Claude Code, it takes 15 minutes.
 
-Here's how: Maria prepares a simple spreadsheet with listing IDs and the new prices. She opens her terminal and types:
+Here's how: Maria prepares a simple spreadsheet with listing IDs and the new prices. She opens her terminal and types a command roughly like `claude batch-update listings.csv --field price --mode dry-run` to tell Claude Code to read the spreadsheet, show her a preview of what will change, and wait for approval. 
 
-```
-claude batch-update listings.csv --field price --mode dry-run
-```
-
-This tells Claude Code to read the spreadsheet, show her a preview of what will change, and wait for approval. Maria reviews the changes, then removes the `--dry-run` flag to execute:
-
-```
-claude batch-update listings.csv --field price
-```
-
-Claude Code connects to her website via the MCP server, updates all 47 listings, and returns a report: "Updated 47 listings. 46 successful, 1 failed (ID 8844 — price format invalid). Review listing 8844."
+Maria reviews the changes, then runs the command again without the dry-run flag to execute the update. Claude Code connects to her website via the MCP server, updates all 47 listings, and returns a report: "Updated 47 listings. 46 successful, 1 failed (ID 8844 — price format invalid). Review listing 8844."
 
 Maria fixes the one outlier, re-runs the command for just that listing, and she's done. Total time: 15 minutes instead of 3 hours.
 
-**Another example: bulk content edits.** Ethan, a solo agent, writes blog posts about neighborhoods. He used to publish them one at a time through the website's content editor. Now he writes 10 posts in a markdown file on his computer, then instructs Claude Code:
-
-```
-claude publish posts.md --category "neighborhood-guide" --status draft
-```
+**Another example: bulk content edits.** Ethan, a solo agent, writes blog posts about neighborhoods. He used to publish them one at a time through the website's content editor. Now he writes 10 posts in a markdown file on his computer, then instructs Claude Code with a command roughly like `claude publish posts.md --category "neighborhood-guide" --status draft`.
 
 Claude Code uploads all 10 posts to his website as drafts. Ethan reviews them, approves, and one command publishes the whole batch. [No manual clicking required](/connect-claude).
 
@@ -119,7 +101,7 @@ If this resonates with your workflow, here's your next step:
 
 3. **Start small.** Your first command should be something low-stakes — maybe updating a handful of blog post tags, or adjusting open house times on 5 listings. Prove to yourself the flow works before trusting bigger batches.
 
-4. **Read the documentation.** Virtual Results publishes a [full CLI reference](#) with every command, parameter, and example. Bookmark it.
+4. **Read the documentation.** Virtual Results publishes a [NEEDS SOURCE: link to VR CLI reference doc] with every command, parameter, and example. Bookmark it.
 
 5. **Ask your team.** If you're part of a brokerage or team, talk to your broker or tech lead. They might want to set up [shared credentials and permissions](/team-rollout) so multiple agents can use Claude Code safely.
 
@@ -129,7 +111,7 @@ For years, real estate tech was built around Zapier-style automation: fixed temp
 
 This is what it means when we say your website can take instructions. You're not limited to pre-built automations. You can ask for anything your website can do, and an AI assistant handles the logic.
 
-For power users who live in the terminal, this is the productivity multiplier you've been waiting for.
+For power users who live in the terminal, this is a real time-saver for anyone who spends their day typing instead of clicking.
 
 ---
 

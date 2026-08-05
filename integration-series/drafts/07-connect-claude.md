@@ -4,7 +4,7 @@ alternates:
   - "Give Claude the Keys to Your Website"
   - "Three Steps to AI That Knows Your Listings"
 dek: "Step-by-step, screenshots included, zero terminal."
-hook: "Step-by-step, screenshots [brackets], zero terminal. Your website already has an MCP server (Model Context Protocol — think of it as your website's AI connection) running. Claude just needs the key."
+hook: "Step-by-step, with screenshots at every stage — no terminal required. Your website already has an MCP server (Model Context Protocol — think of it as your website's AI connection) running. Claude just needs the key."
 hero: "[HERO: screenshot of Claude chat window with a question about a new listing, and a response panel showing data from the agent's website. Split layout showing "your question" and "your website's answer." Newsprint-editorial style.]"
 internal_links:
   - slug: "what-is-mcp"
@@ -44,9 +44,11 @@ series_comment: "<!-- SERIES_TOC: Your Website, On Speaking Terms -->"
 
 <!-- SERIES_TOC: Your Website, On Speaking Terms -->
 
+Step-by-step, with screenshots at every stage — no terminal required. Your website already has an MCP server (Model Context Protocol — think of it as your website's AI connection) running. Claude just needs the key.
+
 ## Why Connect Claude to Your Website? {#why}
 
-Right now, Claude is smart but it doesn't know your business. It can't tell you if a listing sold yesterday, pull your current inventory, or answer a question about your open house schedule. Connect Claude to your [MCP server](what-is-mcp), and suddenly it has the keys to your website—it can read everything and answer questions about your specific business.
+Right now, Claude is smart but it doesn't know your business. It can't tell you if a listing sold yesterday, pull your current inventory, or answer a question about your open house schedule. Connect Claude to your [MCP server](what-is-mcp), and suddenly it has the keys to your website—it can read everything and answer questions about your specific business. You'll be able to ask Claude to help with tasks like [creating or editing listings](/howto-listing) without leaving the chat.
 
 Imagine Sarah, an agent in Denver, gets a client call at 9 pm: "What was the sale price of that house on Maple Street?" Instead of digging through files, Sarah opens Claude, types the question, and gets the answer in three seconds. That's what this connection does.
 
@@ -54,8 +56,8 @@ Imagine Sarah, an agent in Denver, gets a client call at 9 pm: "What was the sal
 
 Before you start, gather these three things:
 
-1. **Your VR API Key** — a unique credential that tells Claude your website is real and authorized. We'll show you where to find this in the first step.
-2. **A Claude account** — the free version works; if you have Claude Pro, even better.
+1. **Your VR API Key** — a unique credential that tells Claude your website is real and authorized. We'll show you where to find this in the first step. (Want to know how [credentials are kept safe](/auth-security)? We cover that in a separate article.)
+2. **A Claude account** — free or Pro, both work the same for this integration.
 3. **About 10 minutes** and a quiet spot to follow along.
 
 If you've already set up Claude before, this will feel familiar—it's the same pattern you'd use to connect any AI assistant to a tool.
@@ -125,11 +127,11 @@ Go back to your VR dashboard, make sure you copied the entire API key (it's usua
 The connection is probably live, but Claude doesn't have permission to read that specific data yet. This usually means a permission setting in your VR dashboard that needs to be adjusted. Check "Integrations" > "Permissions" and make sure "External AI Assistants" is set to "Read Access" for at least "Listings" and "Blog Posts."
 
 **I'm pasting the key but nothing happens**
-Try refreshing the Claude website (Ctrl+R or Cmd+R) and going back to Settings > Integrations. Paste the key again. If that doesn't work, [contact VR support with your API key in a secure message](#)—they can diagnose it in seconds.
+Try refreshing the Claude website (Ctrl+R or Cmd+R) and going back to Settings > Integrations. Paste the key again. If that doesn't work, contact VR support with your API key in a secure message—they can diagnose it in seconds.
 
 ## What Comes Next {#next}
 
-You now have Claude connected to your website—the foundation is built. The next articles in this series show you [how to connect other AI assistants](#) if you prefer ChatGPT or Codex, and how to [set up team access safely](#) so your whole office can ask questions without sharing passwords.
+You now have Claude connected to your website—the foundation is built. The next articles in this series show you [how to connect other AI assistants](/connect-chatgpt-codex) if you prefer ChatGPT or Codex, and how to [set up team access safely](/team-rollout) so your whole office can ask questions without sharing passwords.
 
 Want to see this working with real listings? **[See a demo](#).**
 
