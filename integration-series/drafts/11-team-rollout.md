@@ -11,10 +11,8 @@ internal_links:
   - "connect-gui" — "No Terminal Required: GUI Ways to Connect"
   - "auth-security" — "Who Holds the Keys? Authentication and Security, Explained"
   - "what-is-mcp" — "What Is an MCP Server? A Plain-English Guide for Real Estate Pros"
-external_sources:
-  - "[NEEDS SOURCE: statistics on access-related data breaches in small business / real estate]"
-  - "[NEEDS SOURCE: best practices for credential management in team environments]"
-cta_placement: "After the 'Common Pitfalls' section"
+external_sources: []
+cta_placement: "After the 'Keeping Access Fresh' section (true end of article, before the prev/next footer)"
 cta_type: "mid (see a demo)"
 prev_article: "10. connect-gui — No Terminal Required: GUI Ways to Connect"
 next_article: "12. auth-security — Who Holds the Keys? Authentication and Security, Explained"
@@ -124,12 +122,6 @@ Six months go by. You need to audit who can do what. You can't remember if you e
 
 It feels egalitarian, but it's not secure. Equal access doesn't mean equitable; it means indiscriminate. A new agent shouldn't be able to delete your top producer's custom listing template. A marketing assistant shouldn't have the ability to reset your blog's design. Match access to role. That's fairness with guardrails.
 
----
-
-**Ready to connect your whole team to your website's AI connection — safely?** [See a demo](#) of how Virtual Results makes team access management simple and secure. We'll show you how to set it up in your office, just like Priya did in hers.
-
----
-
 ## Keeping Access Fresh {#access-maintenance}
 
 Access management isn't a one-time event. It's something you revisit.
@@ -137,6 +129,10 @@ Access management isn't a one-time event. It's something you revisit.
 Every quarter, run a quick audit. Log in as the broker or office manager and look at who still has access. Did someone leave? Revoke it. Did someone get promoted and need more access? Promote them. Did you hire someone new? Add them to the rollout plan and onboard them the same way Priya did.
 
 Also watch for signs that someone's password might be compromised. If someone forgets their login five times and you keep resetting it, or if you notice activity that doesn't match someone's usual patterns (an agent logging in at 2 a.m. from another country), those are signals to [check your authentication and security settings](/auth-security) more closely. For the deeper technical side of authentication and who has what permissions, that article goes into all the details you might need as you scale.
+
+---
+
+**Ready to connect your whole team to your website's AI connection — safely?** [See a demo](#) of how Virtual Results makes team access management simple and secure. We'll show you how to set it up in your office, just like Priya did in hers.
 
 ---
 

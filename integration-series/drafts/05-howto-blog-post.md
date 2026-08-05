@@ -84,7 +84,7 @@ You don't need a script. You don't need outline software. You just need to tell 
 - **Share a thought, a stat, or a story.** "I just had three clients ask about recession—what does that even mean for real estate? Let's explain it."
 - **Send a half-finished draft.** If you start writing and want help finishing, paste what you've got and say "Turn this into a blog post. Keep my tone."
 
-Your AI assistant doesn't need perfect inputs. It needs your idea. And because your assistant now has real keys to your website (MCP server (Model Context Protocol — think of it as your website's AI connection)), it can turn ideas into real drafts, fast.
+Your AI assistant doesn't need perfect inputs. It needs your idea. Your assistant now has real keys to your website — the MCP server (Model Context Protocol — think of it as your website's AI connection) — so it can turn ideas into real drafts, fast.
 
 The assistant pulls information from your website if needed: past blog posts to match your voice, listing details if you want current examples, team information if you mention a team member. Then it writes.
 
@@ -117,7 +117,7 @@ The draft-first workflow means you can say "publish immediately" without fear. Y
 
 **3. Your team can do this too.** If you have agents on your team, [getting your whole team connected](/team-rollout) means everyone can publish. Market updates from different neighborhoods, different agent perspectives, all one conversation. [Who controls what your website publishes](/auth-security) is up to you — you set the permissions.
 
-**The business result:** The barrier to publishing—the time, the writing friction, the "I'll do it this weekend"—evaporates. You can publish far more often, turning your website from an annual-update placeholder into a living, regularly refreshed resource. Google loves fresh content. Your SEO improves. Your website becomes a lead magnet instead of an afterthought.
+**The business result:** You can publish far more often, turning your website from an annual-update placeholder into a living, regularly refreshed resource. Google loves fresh content. Your SEO improves. Your website becomes a lead magnet instead of an afterthought.
 
 ## Getting Started
 
