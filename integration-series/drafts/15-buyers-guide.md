@@ -14,13 +14,13 @@ FRONT MATTER
 
 **Top image concept:** [HERO: A newsprint-editorial collage of a classic consumer "buyer's guide" checklist — clipboard with checkboxes, styled like a Consumer Reports spread, but the items are about AI and website keys instead of appliances.]
 
-**Internal links used (3-6):**
+**Internal links used (3-6, not counting /overview intro link):**
+- `/overview` — intro hub-and-spoke link
+- `/what-is-mcp` — plain-English MCP definition (intro & end)
 - `/auth-security` — "Who Holds the Keys?" (authentication/revocable access)
 - `/listing-data-wars` — the listing data wars context
 - `/mcp-vs-zapier` — Zapier comparison for the lock-in question
-- `/what-is-mcp` — plain-English MCP definition
 - `/use-cases` — the 12 things you can ask your website to do
-- `/technical` — under-the-hood architecture for the audit trail question
 
 **External sources list:**
 - Anthropic MCP documentation (modelcontextprotocol.io) — used for the definition of MCP and the description of scoped, revocable access as a protocol-level design goal.

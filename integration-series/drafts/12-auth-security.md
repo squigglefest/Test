@@ -59,7 +59,7 @@ Strip away the jargon and authentication is just a lock-and-ID-check system. Bef
 
 Think of your website like an office building. The building has a front desk. Authentication is the front desk checking a badge before waving anyone past the lobby. It doesn't decide what that person is allowed to do once inside — that's a separate question, covered next — it just confirms identity.
 
-For [an assistant with keys to the building](/overview), authentication is the step that happens before the assistant is handed any key at all.
+For an assistant with keys to the building, authentication is the step that happens before the assistant is handed any key at all.
 
 ## API keys, in plain terms
 
