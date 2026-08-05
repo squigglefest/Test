@@ -34,7 +34,7 @@ FRONT MATTER
 
 Adding AI to your website means handing something a set of keys. Before you do that with any vendor — including us — here's the checklist worth going through first.
 
-By now you know the shape of the idea: an [MCP server (Model Context Protocol — think of it as your website's AI connection)](/what-is-mcp) lets an AI assistant act on your site instead of just answering questions about it. That's genuinely useful. It's also a new kind of access to grant, and not every implementation of it deserves your trust equally.
+By now you know the shape of the idea: an [MCP server (Model Context Protocol — think of it as your website's AI connection)](/what-is-mcp) lets [an AI assistant act on your site](/overview) instead of just answering questions about it. That's genuinely useful. It's also a new kind of access to grant, and not every implementation of it deserves your trust equally.
 
 This article is not another pitch. It's the checklist we'd want if we were the one buying — followed by an honest account of how Virtual Results answers each question. Where the honest answer is "it depends" or "ask your specific vendor," we say so.
 
@@ -92,7 +92,7 @@ A tool that can draft a blog post should not, by the same credential, be able to
 
 If a vendor can't answer this cleanly, that's the answer. "The AI did it" is not an audit trail.
 
-**How VR answers it:** Actions taken through the integration are attributable — tied to the credential that authorized them — and changes to listings and posts follow the same drafting and versioning your site already uses for human edits. We walk through the underlying architecture in [Under the Hood](/technical) for anyone who wants the mechanical detail rather than the summary.
+**How VR answers it:** Actions taken through the integration are attributable — tied to the credential that authorized them — and changes to listings and posts follow the same drafting and versioning your site already uses for human edits. The key point: every action gets logged to the audit trail, so there's a clear record and no mysteries.
 
 **Scenario:** Devon wakes up to find a listing's price updated overnight. Before assuming an error, he checks the activity: it was Devon's own assistant, acting on the "reduce to $475,000" instruction he gave it at 11 p.m. before bed. Nothing mysterious — just a record.
 
@@ -118,7 +118,7 @@ You don't need a number from us in this article to ask a vendor this question we
 
 If the only way to use the integration is through one specific chatbot, that's a second, quieter form of lock-in.
 
-**How VR answers it:** The series has walked through connecting [Claude](/connect-claude), [ChatGPT and Codex](/connect-chatgpt-codex), command-line tools, and GUI options because the integration isn't tied to a single AI product. It's a connection your website exposes; which assistant you point at it is your call.
+**How VR answers it:** The integration works with various AI assistants — Claude, ChatGPT, and others — because the connection method itself isn't locked to a single AI product. It's a connection your website exposes; which assistant you point at it is your call.
 
 ## Question 8: What Happens When It's Wrong?
 

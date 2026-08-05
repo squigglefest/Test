@@ -7,6 +7,8 @@ dek: "An MCP server connection unlocks dozens of possibilities — here are the 
 hook: "Market reports. Open houses. Lead questions. Photo swaps. Your website has always been able to do more than publish a blog post. The problem was you couldn't just ask it. Now you can."
 hero_image: "[HERO: Agent at a desk, holding a phone with a text bubble emerging; in the background, a website morphing into different content (report, listing page, photo grid). Newsprint-collage style.]"
 internal_links:
+  - slug: "/overview"
+    anchor: "keys to your website" (intro hub link)
   - slug: "/technical"
     anchor: "how it works"
   - slug: "/connect-claude"
@@ -29,7 +31,7 @@ cta_type: "mid (see a demo)"
 
 Market reports. Open houses. Lead questions. Photo swaps. Your website has always been able to do more than publish a blog post. The problem was you couldn't just ask it. Now you can.
 
-When you connect an [MCP server](/technical) (Model Context Protocol — think of it as your website's AI connection) to Claude, you hand an assistant the keys to your website. It can create, edit, delete, and publish content without you logging in manually. That changes what you can delegate and ask for on the spot.
+When you connect an [MCP server](/technical) (Model Context Protocol — think of it as your website's AI connection) to Claude, [you hand an assistant the keys to your website](/overview). It can create, edit, delete, and publish content without you logging in manually. That changes what you can delegate and ask for on the spot.
 
 ### Table of Contents
 

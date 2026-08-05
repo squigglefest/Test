@@ -12,6 +12,7 @@ Hook (verbatim, first 2 sentences of body): "Forty-three thousand listings vanis
 Top image concept: [HERO: A newsprint-collage illustration of a tug-of-war rope, one end held by a stylized "Z" (Zillow) figure, the other by a stylized house-key silhouette (Compass), with torn newspaper clippings of real headlines about listing data in the background. In the middle, small and steady, a single house with its own doorway lit up — representing the agent's own website. Editorial, slightly gritty texture, not corporate-clean.]
 
 Internal links used:
+- /overview — "the one channel in this fight that nobody can cut you off from" (intro hub link)
 - /auth-security — "who holds the keys to your site"
 - /mcp-vs-zapier — "unlike a Zapier-style fixed recipe"
 - /what-is-mcp — "your website's AI connection"
