@@ -35,7 +35,7 @@ CTA type: Mid — "see a demo"
 
 For the broker who wants receipts (or their tech person). This one gets technical on purpose.
 
-Every other article in this series keeps things at street level: you ask, the website does the thing. That's true, and it's the right way to think about it day to day. But some of you — or the person you call when the website breaks — want to know what's actually happening in between the asking and the doing. This article is for that person.
+Every other article in [this series](/overview) keeps things at street level: you ask, the website does the thing. That's true, and it's the right way to think about it day to day. But some of you — or the person you call when the website breaks — want to know what's actually happening in between the asking and the doing. This article is for that person.
 
 We're going to use real terms here: tools, resources, prompts, JSON-RPC. If you've read the [plain-English guide to MCP](/what-is-mcp), you already have the metaphor — an assistant with keys to the building, rather than a vending machine of fixed recipes. This article opens the building up and shows you the wiring.
 
@@ -96,7 +96,7 @@ Every step in the middle is protocol. The only two places anything resembling fr
 
 ## What the VR server actually exposes
 
-Concretely, the VR MCP server exposes tools that map to the things agents actually do on their site: creating and editing blog posts, creating and editing listings, managing media, and reading back current content and site structure so the assistant has accurate context before it acts. [The fuller list of what you can ask for](/use-cases) covers each one in plain language; this article is just showing you that behind each of those, there's a defined tool with defined inputs — not a black box guessing at your intent.
+Concretely, the VR MCP server exposes tools that map to the things agents actually do on their site: creating and editing blog posts, creating and editing listings, managing media, and reading back current content and site structure so the assistant has accurate context before it acts. Each of these capabilities is represented by a defined tool with defined inputs — not a black box guessing at your intent. The full list of what you can ask for covers them all; this article is just showing you the structure behind each one.
 
 That mapping matters for a specific reason: it means the assistant can only do things the server explicitly exposes. It cannot improvise a database query or reach into parts of the site nobody built a tool for. The boundary of "what the AI can touch" is drawn by the tool list, not by what the assistant feels like trying.
 

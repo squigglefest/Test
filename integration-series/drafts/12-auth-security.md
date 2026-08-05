@@ -15,12 +15,12 @@ FRONT MATTER
 **Top image concept:** [HERO: A newsprint-collage illustration of an old-fashioned keyring with several distinct labeled keys — "Blog," "Listings," "Media," "Settings" — next to a locked front door. One key is being handed to a small robot/assistant figure by a human hand, while other keys stay on the ring, untouched. Editorial, slightly retro, not sci-fi.]
 
 **Internal links used (3–6):**
+- [an assistant with keys to the building](/overview) — hub-and-spoke intro link
 - [What Is an MCP Server?](/what-is-mcp) — first mention of MCP server concept
-- [an assistant with keys to the building](/overview) — metaphor callback
 - [Connect Claude to Your Website](/connect-claude) — first mention of connecting a specific assistant
-- [Getting Your Whole Team Connected](/team-rollout) — mention of multiple team members having access
 - [12 Things You Can Ask Your Website to Do](/use-cases) — mention of scoped tasks
 - [The Listing Data Wars](/listing-data-wars) — mention of owning your channel vs. depending on others
+- [buyer's guide for AI website integrations](/buyers-guide) — cross-reference to decision-stage article
 
 **External sources list:**
 - Anthropic, Model Context Protocol specification — authorization overview: https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization
@@ -38,7 +38,7 @@ FRONT MATTER
 
 The question you SHOULD be asking before you connect anything isn't "is this safe?" It's "who, exactly, has a key, and to which doors?"
 
-That's a fair question. An [MCP server (Model Context Protocol — think of it as your website's AI connection)](/what-is-mcp) is a real, working connection between an AI assistant and your website. Once it's live, an assistant can publish posts, update listings, or edit pages by request. That's the whole point. But it also means the question of access control isn't optional — it's the first thing to understand, not an afterthought.
+That's a fair question. An [MCP server (Model Context Protocol — think of it as your website's AI connection)](/what-is-mcp) is a real, working connection between an AI assistant and your website — [an assistant with keys to the building](/overview), in a sense. Once it's live, the assistant can publish posts, update listings, or edit pages by request. That's the whole point. But it also means the question of access control isn't optional — it's the first thing to understand, not an afterthought.
 
 This article covers what "authentication" actually means for you, day to day: what an API key is, what an assistant can and can't touch, how to revoke access in seconds, and why this matters more now that your website can be operated by asking, not just browsed.
 
@@ -79,7 +79,7 @@ This is where the keyring metaphor earns its keep. A building doesn't hand every
 
 In practice, scoping means the access granted to an assistant is defined by what that connection is permitted to do — not by what's technically possible. A connection can be limited to specific kinds of actions: drafting blog content, updating a specific listing, reading site content without changing it. It should not, by default, be handed the ability to delete users, change billing, or alter security settings, regardless of how the request is phrased.
 
-**A concrete scenario:** James runs a two-agent team. He connects his own assistant with full drafting and publishing permissions for blog content and listings. He connects his transaction coordinator's assistant with narrower permissions — able to update listing status and photos, but not able to publish new blog posts or touch site settings. Both connections authenticate the same way. What they're each allowed to *do* once inside is different. That's scoping, and it's the same principle covered in more detail in [Getting Your Whole Team Connected](/team-rollout).
+**A concrete scenario:** James runs a two-agent team. He connects his own assistant with full drafting and publishing permissions for blog content and listings. He connects his transaction coordinator's assistant with narrower permissions — able to update listing status and photos, but not able to publish new blog posts or touch site settings. Both connections authenticate the same way. What they're each allowed to *do* once inside is different. That's scoping — when different team members get different access rights based on their role.
 
 This is also why "can the AI just do anything?" is the wrong fear to have. The honest answer is: it can do whatever its key is scoped to do, and nothing else. A well-built connection is designed so that even a strange or manipulated request from the assistant can't reach outside that boundary — the equivalent of a badge that simply doesn't open the server closet door, no matter who's holding it or what they claim.
 
@@ -111,7 +111,7 @@ The [MCP specification itself](https://modelcontextprotocol.io/specification/202
 
 Authentication checks who's asking. Scoping limits what they're allowed to ask for. Revocation lets you close a door the moment you need to. None of that requires you to understand encryption or protocols — it requires you to know that each connection you set up should get its own key, a defined set of permissions, and a clear path to shutting it off.
 
-Before you connect anything, that's genuinely the whole checklist: who gets a key, what does their key open, and how do I take it back if I need to.
+Before you connect anything, that's genuinely the whole checklist: who gets a key, what does their key open, and how do I take it back if I need to. These same three points — ownership, revocation, and scope — are why the [buyer's guide for AI website integrations](/buyers-guide) treats access control as the first consideration, not an afterthought.
 
 Curious what this looks like on an actual site, with actual permission settings? [See a live demo](#) of how Virtual Results scopes and manages access, connection by connection.
 

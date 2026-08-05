@@ -34,7 +34,7 @@ It's not another app. It's a doorway — and you hold the keys.
 
 Every piece of software you've ever added to your real estate business — your CRM, your transaction management platform, your email marketing tool — asked you to log in, click around, and do the work yourself. An MCP server flips that. It lets an AI assistant walk through the door and do the work, because you handed it a key.
 
-That's the whole idea. The rest of this article is just filling in the details.
+That's the whole idea — and it's what we're exploring throughout [this series](/overview). The rest of this article is just filling in the details.
 
 ## Jump to a section
 - [The One-Sentence Version](#the-one-sentence-version)

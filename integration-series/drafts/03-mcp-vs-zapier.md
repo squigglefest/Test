@@ -40,6 +40,8 @@ Here's the real difference: one system carries out the tasks you decide to autom
 
 <!-- SERIES_TOC: Your Website, On Speaking Terms -->
 
+Zapier runs recipes. This one improvises — which is the fundamental difference you need to understand as you explore [this series](/overview) on how your website can take instructions.
+
 ## Table of Contents
 - [The Recipe vs. the Assistant](#the-recipe-vs-the-assistant)
 - [Why Zapier Is Good (At What It Does)](#why-zapier-is-good-at-what-it-does)

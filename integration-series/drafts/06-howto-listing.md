@@ -35,7 +35,7 @@ cta_type: "mid (consideration funnel)"
 
 ## The 9 PM Price Change, Handled From Your Phone
 
-It's 9 pm, and Maria just got a price reduction call from her seller. She opens her phone and types: "Update the listing at 456 Oak to $489,900." Seconds later, her website shows the new price.
+It's 9 pm, and Maria just got a price reduction call from her seller. She opens her phone and types: "Update the listing at 456 Oak to $489,900." Seconds later, her website shows the new price — the kind of interaction [this series](/overview) explores.
 
 That's not automation running on a schedule. That's an assistant with keys to her website — the same keys Maria would use to log in and edit manually. But this time, she just asked. And you stay in control every step—[safely handing over access](/auth-security) means you see and approve everything before your website changes.
 

@@ -50,7 +50,7 @@ Forty-three thousand listings vanished from a Chicago-area feed overnight. If yo
 
 That single event — a mass removal of listings tied to a dispute between Zillow and the Midwest Real Estate Data (MRED) multiple listing service — is one flashpoint in a much bigger fight. Depending on who you ask, it's a fight about consumer protection, about market power, about commissions, or about who gets to be the front door to home search. It is, underneath all of it, a fight about distribution: who controls the pipes that carry a listing from a home to a buyer's screen.
 
-You don't have to pick a side to learn the lesson. This article lays out what's actually happening, as neutrally as we can manage, and why the one channel in this fight that nobody can cut you off from is the website you own.
+You don't have to pick a side to learn the lesson. This article lays out what's actually happening, as neutrally as we can manage, and why [the one channel in this fight that nobody can cut you off from](/overview) — your own website — is where control actually matters.
 
 ## In this article
 

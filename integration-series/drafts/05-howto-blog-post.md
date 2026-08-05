@@ -34,6 +34,8 @@ cta_type: "mid — see a demo"
 
 <!-- SERIES_TOC: Your Website, On Speaking Terms -->
 
+You have a quick thought about spring market conditions on Tuesday afternoon. By Wednesday morning, a draft post sits in your website's review queue — because [your website can take instructions](/overview). A few hours later, it's live. No writing, no waiting for a freelancer, no spreadsheet of to-dos.
+
 ## How It Works: The Two-Step Flow
 
 Publishing a blog post through your website's AI connection is simpler than you might think. You:
