@@ -72,7 +72,7 @@ You paste the lead's message. The integration writes a personalized, professiona
 
 **"Replace the kitchen photos on 456 Oak Ave with the new ones I just uploaded."**
 
-The listing has old kitchen shots. You took new ones this morning. Instead of logging into your MLS/website backend, uploading files, and manually swapping them, you just describe what you want. The integration finds the listing, pulls the new images, and makes the swap automatically.
+The listing has old kitchen shots. You took new ones this morning. Instead of logging into your MLS/website backend, uploading files, and manually swapping them, you just describe what you need. The integration finds the listing, pulls the new images, and makes the swap. It's the same power you'd use to [create or edit a listing](/howto-listing) — but here you're managing photos in bulk.
 
 ### 5. Update Your Agent Bio Page
 
