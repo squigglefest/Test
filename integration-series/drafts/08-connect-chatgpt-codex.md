@@ -56,7 +56,7 @@ This guide walks you through adding ChatGPT or Codex to your website using the s
 
 Before you start, gather these three things:
 
-1. **An OpenAI account** with API access. This is different from a regular ChatGPT Plus subscription — you'll need to set up paid API access on [platform.openai.com](https://platform.openai.com). [NEEDS SOURCE: verification that OpenAI API requires separate account/billing]
+1. **An OpenAI account** with API access. Our understanding is that this is different from a regular ChatGPT Plus subscription — you'll likely need to set up separate paid API access on [platform.openai.com](https://platform.openai.com), but confirm the current account/billing setup on OpenAI's site before you budget for it. [NEEDS SOURCE: verification that OpenAI API requires separate account/billing]
 2. **An API key** from OpenAI (we'll get this in Step 1).
 3. **Your website's MCP connection already set up** (from the Claude guide). If you haven't done this yet, finish that first.
 
@@ -64,16 +64,16 @@ You don't need any new software or tools. Everything happens in the same place a
 
 ## Step 1: Get Your OpenAI API Key
 
-OpenAI keeps API keys in your account settings, separate from the web app. Here's how to find yours:
+OpenAI keeps API keys in your account settings, separate from the web app. Here's roughly how to find yours (OpenAI's own interface is the source of truth if anything below looks different):
 
 1. Log in to your OpenAI account at [platform.openai.com](https://platform.openai.com).
-2. Click **API keys** in the left sidebar.
+2. Look for something like **API keys** in the left sidebar.
    
    [SCREENSHOT: Left sidebar of OpenAI platform showing "API keys" option highlighted]
 
-3. Click **Create new secret key**.
+3. Look for a button along the lines of **Create new secret key**.
 4. Give it a descriptive name like "My Real Estate Website" so you remember what it's for later.
-5. Copy the key to a safe place (you can't view it again after you close this screen). 
+5. Copy the key to a safe place (typically you can't view it again after you close the screen). 
    
    [SCREENSHOT: OpenAI API key generation screen with "Create new secret key" button and name field visible]
 
@@ -81,23 +81,23 @@ OpenAI keeps API keys in your account settings, separate from the web app. Here'
 
 ## Step 2: Add the ChatGPT or Codex Configuration
 
-Your website's connection tool (the same one you used for Claude) has a place to add a new assistant. Navigate to your [MCP server](/what-is-mcp) settings:
+Your website's connection tool (the same one you used for Claude) should have a place to add a new assistant. Head to your [MCP server](/what-is-mcp) settings.
 
-> [NEEDS SOURCE: VR connection tool UI — confirm exact steps/labels (Add Assistant, Assistant Type dropdown, permission checkboxes) against the real product before publish]
+Note: the exact labels in this step — "Add Assistant," the assistant-type dropdown, the permission checkboxes — are our best understanding of the flow and haven't been verified against the live tool. Use them as a guide to the general shape of the setup, and confirm the real wording before you publish or rely on this article. [NEEDS SOURCE: VR connection tool UI — confirm exact steps/labels (Add Assistant, Assistant Type dropdown, permission checkboxes) against the real product before publish]
 
 1. Open your MCP connection tool in the same place where you set up Claude.
-2. Look for **Add Assistant** or **New Connection**.
+2. Look for something like **Add Assistant** or **New Connection**.
 3. Select **OpenAI** as the provider.
    
    [SCREENSHOT: Connection tool showing provider dropdown with "OpenAI" selected]
 
-4. For **Assistant Type**, choose one:
-   - **ChatGPT** — general-purpose writing and reasoning [NEEDS SOURCE: current OpenAI model lineup]
-   - **Codex** — best for writing and debugging code [NEEDS SOURCE: OpenAI Codex/API assistant-type configuration]
+4. For the assistant type, you'll likely be choosing between something like:
+   - **ChatGPT** — general-purpose writing and reasoning. (The specific model behind this — GPT-4, GPT-3.5, or a newer release — depends on what OpenAI currently offers; check OpenAI's site for the current lineup rather than relying on any model name mentioned here.) [NEEDS SOURCE: current OpenAI model lineup]
+   - **Codex** — geared toward writing and debugging code. Exact naming and capabilities may differ from what's described here. [NEEDS SOURCE: OpenAI Codex/API assistant-type configuration]
    
    [SCREENSHOT: Assistant type selection dropdown showing ChatGPT and Codex options]
 
-5. Paste your API key into the **API Key** field.
+5. Paste your API key into the field for it.
 6. Leave the other settings at their defaults unless you know you need to change them.
 
 [SCREENSHOT: Configuration form with fields for API key, assistant type, and model selection]
@@ -106,8 +106,8 @@ Your website's connection tool (the same one you used for Claude) has a place to
 
 Now you're telling the VR MCP server that this new OpenAI assistant should be able to access your website, just like Claude can.
 
-1. In your connection tool, scroll to the **Permissions** section.
-2. Under the ChatGPT or Codex connection you just created, check these boxes:
+1. In your connection tool, look for something like a **Permissions** section.
+2. Under the ChatGPT or Codex connection you just created, look for checkboxes along the lines of:
    - **Read listings**
    - **Create/edit blog posts**
    - **Create/edit listings**
@@ -116,7 +116,7 @@ Now you're telling the VR MCP server that this new OpenAI assistant should be ab
 
    (You can give it different permissions than Claude if you want — maybe Codex only gets access to code-related tasks, for example.)
 
-3. Click **Save Configuration**.
+3. Look for a button like **Save Configuration**.
 
 Your website's MCP server now knows about this new assistant and what it's allowed to do.
 
@@ -124,13 +124,13 @@ Your website's MCP server now knows about this new assistant and what it's allow
 
 The last step connects your OpenAI account to your website's [authentication setup](/auth-security):
 
-1. In your connection tool, click **Test Connection** next to your ChatGPT or Codex entry.
+1. In your connection tool, look for something like **Test Connection** next to your ChatGPT or Codex entry.
 2. The system will try to reach OpenAI's servers and confirm your API key works.
-3. If it succeeds, you'll see a green checkmark. If it fails, double-check that you copied your API key correctly (no extra spaces).
+3. If it succeeds, you should see a green checkmark. If it fails, double-check that you copied your API key correctly (no extra spaces).
    
    [SCREENSHOT: Connection test result showing green checkmark and "Connection successful" message]
 
-4. Once the test passes, click **Activate** to turn on this assistant for your website.
+4. Once the test passes, look for a button like **Activate** to turn on this assistant for your website.
 
 ## Step 5: Test Your Connection
 

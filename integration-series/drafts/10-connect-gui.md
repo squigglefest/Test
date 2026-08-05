@@ -58,13 +58,13 @@ The simplest path starts in your web browser, no terminal needed.
 
 **Claude Web (claude.ai) has a built-in way to connect to external tools.** If you're already using Claude online, you can add a website connection directly from the interface:
 
-[NEEDS SOURCE: confirm exact Claude.ai UI labels and navigation before publish]
+Exact menu labels may vary slightly as Claude's interface evolves — the general flow below stays the same, but we haven't verified every label against the live product. [NEEDS SOURCE: confirm exact Claude.ai UI labels and navigation before publish]
 
 1. Go to [claude.ai](https://claude.ai) and log in.
 2. Open a conversation (or start a new one).
 3. Look for something like a **Projects** section in the left sidebar — this is where you'll set up your website's connection.
-4. Click a button resembling **Create Project** and choose something like **Add Integration** or **Connect Tools**.
-5. You'll see a settings form asking for your website's address and authentication details (the credentials you'd normally paste into the terminal).
+4. Look for a button resembling **Create Project** and an option along the lines of **Add Integration** or **Connect Tools**.
+5. You should see a settings form asking for your website's address and authentication details (the credentials you'd normally paste into the terminal).
 6. Fill in your website's public URL and any API keys (a password-like code that lets one system securely talk to another) or connection credentials.
 7. Test the connection by asking Claude a simple question — for example, "How many listings do I have?" or "Show me my latest blog posts."
 
@@ -107,13 +107,15 @@ If you use Claude through a mobile app or a desktop app (not the web browser), m
 
 **Mobile apps and desktop clients often have a "Settings" or "Connections" menu** where you can add your website:
 
+The steps below sketch the general flow — exact labels vary by app and change over time, so treat this as a starting point to explore from rather than a literal script:
+
 1. Open your AI assistant app (whatever you use most — Claude, ChatGPT, Codex, or another).
-2. Go to **Settings** or **Preferences**.
-3. Look for a tab called **Integrations**, **Connected Services**, **Custom Tools**, or **MCP Servers**.
-4. Select **Add a New Connection** or **Add a Tool**.
-5. Choose **Website** or **Custom MCP Server** (the wording varies by app).
+2. Look for **Settings** or **Preferences**.
+3. Look for a tab called something like **Integrations**, **Connected Services**, **Custom Tools**, or **MCP Servers**.
+4. Look for an option like **Add a New Connection** or **Add a Tool**.
+5. Choose something like **Website** or **Custom MCP Server** (the wording varies by app).
 6. Enter your website's URL and credentials (same ones the web method would ask for).
-7. The app will test the connection and show you a checkmark or "Connected" status when it's live.
+7. The app should test the connection and show you a checkmark or "Connected"-style status when it's live.
 
 [SCREENSHOT: A mobile phone showing a settings screen. The heading reads "Connected Tools" and there's a card for a website connection showing the domain name, a green "Connected" status, and a toggle switch. Below it are buttons for "Test Connection" and "Remove."]
 
@@ -122,7 +124,7 @@ If you use Claude through a mobile app or a desktop app (not the web browser), m
 **Apps that support this today:**
 - **Claude Web** (browser version — see above)
 - **Claude mobile apps** (iOS/Android — requires a recent version)
-- **ChatGPT app** (if you've subscribed to Plus or Pro — it has a section for custom tools or integrations) [NEEDS SOURCE: confirm exact ChatGPT UI labels and whether GUI integration is available]
+- **ChatGPT app** — our understanding is that Plus or Pro subscriptions include some section for custom tools or integrations, but we haven't confirmed the current labels or whether GUI-based MCP integration is available; verify against the live app before you rely on this. [NEEDS SOURCE: confirm exact ChatGPT UI labels and whether GUI integration is available]
 
 ---
 
