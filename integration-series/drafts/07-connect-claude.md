@@ -7,16 +7,14 @@ dek: "Step-by-step, screenshots included, zero terminal."
 hook: "Step-by-step, with screenshots at every stage — no terminal required. Your website already has an MCP server (Model Context Protocol — think of it as your website's AI connection) running. Claude just needs the key."
 hero: "[HERO: screenshot of Claude chat window with a question about a new listing, and a response panel showing data from the agent's website. Split layout showing "your question" and "your website's answer." Newsprint-editorial style.]"
 internal_links:
+  - slug: "overview"
+    anchor_text: "Your Real Estate Website Can Take Instructions Now"
   - slug: "what-is-mcp"
     anchor_text: "MCP server"
   - slug: "howto-listing"
     anchor_text: "how MCP works with your listings"
   - slug: "auth-security"
     anchor_text: "credentials safely"
-  - slug: "connect-cli"
-    anchor_text: "command-line connection"
-  - slug: "technical"
-    anchor_text: "how this works under the hood"
 external_sources:
   - "Anthropic Claude documentation: https://claude.ai/docs"
   - "[NEEDS SOURCE: VR MCP server authentication flows and API credential generation]"
@@ -46,9 +44,11 @@ series_comment: "<!-- SERIES_TOC: Your Website, On Speaking Terms -->"
 
 Step-by-step, with screenshots at every stage — no terminal required. Your website already has an MCP server (Model Context Protocol — think of it as your website's AI connection) running. Claude just needs the key.
 
+This guide walks you through the most straightforward setup path. For context on why your website can now take AI instructions, read the [overview](/overview) of the series.
+
 ## Why Connect Claude to Your Website? {#why}
 
-Right now, Claude is smart but it doesn't know your business. It can't tell you if a listing sold yesterday, pull your current inventory, or answer a question about your open house schedule. Connect Claude to your [MCP server](what-is-mcp), and suddenly it has the keys to your website—it can read everything and answer questions about your specific business. You'll be able to ask Claude to help with tasks like [creating or editing listings](/howto-listing) without leaving the chat.
+Right now, Claude is smart but it doesn't know your business. It can't tell you if a listing sold yesterday, pull your current inventory, or answer a question about your open house schedule. Connect Claude to your [MCP server](/what-is-mcp), and suddenly it has the keys to your website—it can read everything and answer questions about your specific business. You'll be able to ask Claude to help with tasks like [creating or editing listings](/howto-listing) without leaving the chat.
 
 Imagine Sarah, an agent in Denver, gets a client call at 9 pm: "What was the sale price of that house on Maple Street?" Instead of digging through files, Sarah opens Claude, types the question, and gets the answer in three seconds. That's what this connection does.
 
@@ -137,5 +137,5 @@ Want to see this working with real listings? **[See a demo](#).**
 
 ---
 
-**← Previous:** [How to Create or Edit a Listing by Asking](howto-listing)  
-**Next →** [Connect ChatGPT and Codex to Your Website](connect-chatgpt-codex)
+**← Previous:** [How to Create or Edit a Listing by Asking](/howto-listing)  
+**Next →** [Connect ChatGPT and Codex to Your Website](/connect-chatgpt-codex)

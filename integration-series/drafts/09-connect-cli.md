@@ -7,6 +7,8 @@ dek: "If you're comfortable in a terminal, you can now run batch operations on y
 hook: "Claude Code + your website = batch operations. Instead of editing listings one by one through a chat window, you can automate bulk changes: price adjustments, photo captions, open house times, even bulk email follow-ups."
 hero_concept: "[HERO: split-screen newsprint collage — left side shows a terminal window with Claude Code commands running (stylized, not 100% literal); right side shows a real estate website dashboard updating in real time. Newsprint-editorial style.]"
 internal_links:
+  - slug: "overview"
+    anchor_text: "Your Real Estate Website Can Take Instructions Now"
   - slug: "mcp-vs-zapier"
     anchor_text: "why this isn't just automation"
   - slug: "connect-gui"
@@ -17,8 +19,6 @@ internal_links:
     anchor_text: "authentication"
   - slug: "team-rollout"
     anchor_text: "scaling to your team"
-  - slug: "use-cases"
-    anchor_text: "what else you can automate"
 external_sources:
   - description: "Anthropic MCP (Model Context Protocol) Documentation"
     link: "https://modelcontextprotocol.io/"
@@ -36,6 +36,8 @@ cta_type: "mid (see a demo)"
 - [Getting Started](#getting-started)
 
 <!-- SERIES_TOC: Your Website, On Speaking Terms -->
+
+This guide assumes you've read the [overview](/overview) of the series and understand why your website can take AI instructions. If you're not comfortable at the command line, the [GUI alternatives](/connect-gui) section of this series shows you point-and-click methods instead.
 
 ## Why CLI Matters for Real Estate Pros {#cli-matters}
 

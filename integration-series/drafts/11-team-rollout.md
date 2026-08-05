@@ -7,6 +7,7 @@ dek: "Giving your agents access doesn't have to mean giving them everything."
 hook: "One brokerage, twelve agents, one afternoon."
 hero_image: "[HERO: Office manager Priya at her desk with a team photo on the wall behind her, surrounded by subtle icons representing security (a lock), access (a key), and connection (a link). Newsprint-collage style with warm real estate office tones.]"
 internal_links:
+  - "overview" — "Your Real Estate Website Can Take Instructions Now"
   - "connect-gui" — "No Terminal Required: GUI Ways to Connect"
   - "auth-security" — "Who Holds the Keys? Authentication and Security, Explained"
   - "what-is-mcp" — "What Is an MCP Server? A Plain-English Guide for Real Estate Pros"
@@ -18,6 +19,8 @@ cta_type: "mid (see a demo)"
 prev_article: "10. connect-gui — No Terminal Required: GUI Ways to Connect"
 next_article: "12. auth-security — Who Holds the Keys? Authentication and Security, Explained"
 ---
+
+For context on why your website can now accept AI instructions, read the [overview](/overview) of the series.
 
 One brokerage, twelve agents, one afternoon. That's all it took for Priya, a broker managing a team of residential agents in Austin, to give everyone in her office access to their website's AI connection — the [MCP server](/what-is-mcp) (Model Context Protocol — think of it as your website's AI connection) running on Virtual Results.
 

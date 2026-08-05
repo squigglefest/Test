@@ -31,6 +31,10 @@ external_sources:
   - description: "[NEEDS SOURCE: current OpenAI model lineup]"
 ---
 
+## Overview
+
+For context on why your website can now accept AI instructions, start with the [overview](/overview) of the series.
+
 ## In-Article Navigation
 - [What You'll Need](#what-youll-need)
 - [Step 1: Get Your OpenAI API Key](#step-1-get-your-openai-api-key)

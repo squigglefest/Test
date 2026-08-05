@@ -7,14 +7,16 @@ dek: "For everyone who closed the last article at the word 'CLI' — here's how 
 hook: "For everyone who closed the last article at the word 'CLI.' Here's the good news: command lines are not the only way to connect your website to Claude or other AI assistants."
 hero_image: "[HERO: A real estate agent sitting at their desk, looking relieved while clicking through settings on a laptop. Split-screen showing both a settings menu interface and the connected website working in real-time. Newsprint-collage style, warm and approachable tone.]"
 internal_links:
-  - slug: "/connect-cli"
+  - slug: "overview"
+    anchor_text: "Your Real Estate Website Can Take Instructions Now"
+  - slug: "connect-cli"
     anchor_text: "command-line path"
-  - slug: "/connect-claude"
+  - slug: "connect-claude"
     anchor_text: "basic Claude connection"
-  - slug: "/auth-security"
+  - slug: "auth-security"
     anchor_text: "authentication and security"
-  - slug: "/mcp-vs-zapier"
-    anchor_text: "how MCP works"
+  - slug: "team-rollout"
+    anchor_text: "getting your whole team connected"
 external_sources:
   - "Claude Web (claude.ai): Official Anthropic guide for setting up integrations via web interface"
   - "Anthropic MCP Documentation: https://modelcontextprotocol.io"
@@ -23,6 +25,8 @@ cta_placement: "final-section"
 cta_type: "mid"
 series_publication: "Your Website, On Speaking Terms"
 ---
+
+For context on why your website can now accept AI instructions, read the [overview](/overview) of the series.
 
 <!-- SERIES_TOC: Your Website, On Speaking Terms -->
 
@@ -156,7 +160,7 @@ The method is just the vessel. The destination is the same.
 
 Before you pick your path, you should know what you're connecting to. If you haven't already, read the basic [Claude connection guide](/connect-claude) — it covers what you'll need before any setup method can work (API keys, permissions, that kind of thing).
 
-Once you're connected, head to **article #11** for the trickier part: getting your whole team on the same connection without creating a security nightmare.
+Once you're connected, head to [getting your whole team connected](/team-rollout) — the trickier part of rolling out access without creating a security nightmare.
 
 ---
 
